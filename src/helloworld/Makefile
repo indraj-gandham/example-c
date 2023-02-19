@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: MIT
 #
-# Makefile -- Makefile for building the helloworld example module
+# Makefile -- helloworld module Makefile
 #
 # Copyright (C) 2023 Indraj Gandham <indraj@gandham.ru>
 

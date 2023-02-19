@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: MIT
 #
-# Makefile -- root Makefile (invokes other Makefiles in subdirs under src/)
+# Makefile -- project root Makefile
 #
 # Copyright (C) 2023 Indraj Gandham <indraj@gandham.ru>
 
