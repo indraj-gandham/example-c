@@ -11,14 +11,14 @@ STANDARD := -O2 -fvisibility=hidden
 
 # options
 CC := gcc
-CFLAGS := -Werror -Wextra $(DEBUG)
+CFLAGS := -Werror -Wextra -c $(DEBUG)
 
 # recipes
 .PHONY: all
 all: helloworld.o
 
 helloworld.o: helloworld.c
-	$(CC) $(CFLAGS) -c helloworld.c
+	$(CC) $(CFLAGS) helloworld.c
 
 .PHONY: clean
 clean:
