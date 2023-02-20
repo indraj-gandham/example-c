@@ -6,12 +6,12 @@
 
 
 # presets
-DEBUG := -O0 -ggdb -g3 -fno-omit-frame-pointer
+DEBUG := -O0 -g3 -fno-omit-frame-pointer
 STANDARD := -O2 -fvisibility=hidden
 
 # options
-CC := gcc
-CFLAGS := -Werror -Wextra -c $(DEBUG)
+CC := cc
+CFLAGS := -Werror -Wextra -std=c99 -pedantic-errors -c $(DEBUG)
 
 # recipes
 .PHONY: all

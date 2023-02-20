@@ -6,7 +6,7 @@
 
 
 # options
-LD := gcc
+LD := cc
 OUT := helloworld
 
 # recipes
